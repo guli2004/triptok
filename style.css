@@ -1,0 +1,231 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("C:/Users/davron/Desktop/triptok/image/karta.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 50px;
+}
+h1 {
+	text-align: center;
+	color: #fff;
+}
+img {
+	width: 100%;
+}
+.login-btn {
+	width: 170px;
+	color: #fff;
+	padding: 8px 0;
+	margin-top: 20px;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	outline: none !important;
+	float: right;
+	
+}
+button:hover{
+	color: white;
+	background: rgba(0,0,0,0.479);
+	border: 2px solid white;
+}
+section h1 {
+	padding-top: 200px;
+	padding-bottom: 0;
+	font-size: 45px;
+	color: #fff;
+}
+section p {
+	text-align: center;
+	color: #000;
+	margin: 5px 0;
+	font-size: 25px;
+}
+.input-group {
+	width: 90%;
+	max-width: 600px;
+	border-radius: 30px;
+	background: #fff;
+	margin: auto;
+	padding: 2px;
+}
+.form-control {
+	border: 0 !important;
+	border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-text  {
+	width: 100px;
+	height: 40px;
+	background-image: linear-gradient(#00ff7e,#1f3d90);
+	border: 0 !important;
+	color: #000 !important;
+	padding: 0 25px !important;
+	border-radius: 30px !important;
+	box-shadow: none !important;
+}
+.Xususiyatlari {
+    background-color: white;
+	padding: 80px;
+}
+.Xususiyatlari h2 {
+	padding-top: -10px;
+	font-family: Book Antiqua;
+	color: #000;
+	text-align: center;
+	padding-bottom: 35px;
+}
+.Xususiyatlarning-img img {
+	position: relative;
+}
+.rating {
+    padding-left:  20px;
+    color: rgb(112, 146, 190);
+}
+.price {
+	width: 50px;
+	height: 50px;
+	background: rgb(112, 146, 190);
+	color: #fff;                        
+	font-size: 20px;
+	font-weight: 500;
+	border-radius: 50%;                        
+	padding: 9px;                       
+	box-shadow: 0 0 12px 2px rgba(40,73, 214, 0.20);
+	position: relative;
+    top: -25px;
+    left: 15rem; 
+    text-align: center;
+}                                                                                                                                            
+.feature-details p {
+	font-size: 20px;
+    padding: 15px;
+    text-align: justify;
+}
+.feature-details h4 {
+	text-align: center;
+	font-weight: 700;
+	margin-right: 10px;
+	padding: 3px;
+}
+.Xususiyatlarning-turlari {
+	box-shadow: 0 0 10px 1px rgba(37,73, 214, 0.18);
+	margin-bottom: 30px;
+}
+.Gallery {
+	padding-bottom: 5%;
+	background: #efefef;
+}
+.Gallery h1 {
+	padding-top:  50px;
+	font-family: Book Antiqua;
+	color: #000;
+	text-align: center;
+	font-size: 35px;
+}
+.Galereya-turlari img {
+    height: 180px;
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+    transition: 1s;
+}
+.Galereya-turlari img:hover {
+	transform: scale(1.1);
+}
+.Galereya-turlari h4 {
+    display: block;
+    font-size: 20px;
+	color: #fff;
+	text-shadow: -2px 2px 2px #000;
+	font-weight: 700;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -400%);
+}
+.Galereya-turlari {
+	position: relative;
+	margin-bottom: 50px;
+}
+.banner {
+	height: 800px;
+	background-image: url("C:/Users/davron/Desktop/triptok/image/palma.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top:  14%;
+}
+.banner-joylar {
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #fff;
+} 
+h2  {
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+.col-md-8 p{
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+}
+.booking-btn {
+	width: 170px;
+	color: #fff;
+	padding: 8px 0;
+	outline: none !important;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 50px;
+    margin-top: 20px;
+} 
+.Fikr-mulohazalar {
+	padding: 60px 0;
+    background: rgb(188, 204, 205);
+}
+.Fikr-mulohazalar h1 {
+	padding-top: 30px;
+	font-size: 35px;
+	color: #000;
+	font-family: Book Antiqua;
+}
+.foydalanuvchi-sharhi {
+
+	text-align: center;
+	box-shadow: 0 0 10px 0 rgb(0, 0, 100, 0.5);
+	padding-bottom: 50px;
+
+}
+.foydalanuvchi-sharhi p {
+	font-size: 16px; 
+    padding: 40px 15px 15px 15px;
+    color: #000;
+}
+.Fikr-mulohazalar img {
+	width: 50px;
+	height: 50px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 44%;
+}
+.footer-logo {
+	width: 150px;
+	margin-top: 10px;
+	margin-bottom: 14px;
+}
+.footer .row .bi {
+	padding-right: 30px;
+	font-size: 20px;
+}
+.footer hr {
+	margin-bottom: 50px;
+	background: #efefef;
+}
